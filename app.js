@@ -12,3 +12,9 @@ if(guess === secreteNumber){
   //statement
   document.write("your guess is right!")
 }
+
+//check if guess is higher
+if(guess === secreteNumber){
+  //statement
+  document.write("your guess is right!")
+}
