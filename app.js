@@ -6,3 +6,9 @@ var guessString = prompt("Enter the Secrete Number");
 
 //convert guessString to number
 var guess = Number(guessString);
+
+//check if guess is right
+if(guess === secreteNumber){
+  //statement
+  document.write("your guess is right!")
+}
