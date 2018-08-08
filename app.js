@@ -14,9 +14,13 @@ if(guess === secreteNumber){
 }
 
 //check if guess is higher
-else if (guess < secreteNumber){
+else if (guess > secreteNumber){
   //statement
   document.write("your guess is higher!")
 }
 
 //check if guess is lower
+else {
+  //statement
+  document.write("your guess is lower!")
+}
